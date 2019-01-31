@@ -1,0 +1,237 @@
+html
+{
+	font-family: "Times New Roman", Times, serif;
+	background: url("../img/background.png") center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body
+{
+	width : 90em;
+	margin:0 auto;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 90em) 
+{
+    body 
+	{
+		width:100%;
+		font-size:50%
+    }
+}
+
+.index body
+{
+	background-color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact body
+{
+	background-color:#fff;
+}
+
+Header
+{
+	background: url("../img/companylogoBG.png") center center;
+	background-size: cover;
+	padding-top:5%;
+	padding-bottom:5%;
+	font: 800% "Berlin Sans FB";
+	text-align: center;
+	color: #FFFFFF;
+}
+
+nav
+{
+	font: 350% Arial;
+	background-color: #707070;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	height:7%;
+	padding:1%;
+	border-width:0.01em;
+	border-style: solid;
+}
+a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	margin:0.3em;
+}
+
+ .index section
+ {
+	display:flex;
+	width:100%;
+	min-height:280%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	overflow: hidden;
+ }
+ .contact section
+{
+	padding:5%;
+	background-color:#F5F5F5;
+	font:300% Arial;
+}
+ .product section
+{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	justify-content: center;
+}
+
+.ontop
+{
+	background-color: #2699FB;
+	font:800% Arial;
+	margin: 0em;
+	text-align: center;
+	color: #FFFFFF;
+	padding-left:3em;
+	padding-right:3em;
+}
+#nopadding
+{
+	padding:0.2em 0em;
+}
+.index .center
+{
+	height: 67%;
+	position: relative;
+	margin:0%;
+	z-index:-57;
+	overflow: hidden;
+}
+.index img
+ {
+	width:100%;
+	margin: 0%;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	z-index:-57;
+ }
+
+aside
+{
+	font:800% Arial;
+	text-transform:uppercase;
+	border: 0.01em #fff;
+	border-style:none solid;
+}
+form
+{
+	padding:0em 1em 5em 1em;
+}
+fieldset
+{
+	border:0;
+	padding:0;
+	margin:5% 0;
+}
+#topicbox
+{
+	box-sizing:border-box;
+	border:0.01em solid #000;
+	font:100% Arial;
+	color:#A3A3A3;
+	padding:1%;
+	margin:0;
+	margin-top:5%;
+}
+select
+{
+	position:relative;
+	font: 100% Arial;
+	width:70%;
+	padding-left:1%;
+	height:9%;
+	float:right;
+	border-color:#000;
+}
+input
+{
+	font:100% Arial;
+	box-sizing:border-box;
+	border-width:0.01em;
+	border-style:solid;
+	border-color:#000;
+	padding:2%;
+	width:100%;
+}
+::placeholder
+{
+	color:#A3A3A3;
+}
+textarea
+{
+	box-sizing:border-box;
+	width:100%;
+	height:25%;
+	font:100% Arial;
+	border:solid;
+	border-width:0.01em;
+	resize: none;
+}
+input[type=submit] 
+{
+	box-sizing: border-box;
+	border-color:#fff;
+	margin:0;
+	background-color: #2699FB;
+	width:100%;
+	color:#FFFFFF;
+}
+
+ .product article
+ {
+	background-color: #f1f1f1;
+	width: 33%;
+	margin: 0.1em;
+	text-align: center;
+	line-height: 15em;
+ }
+.product p
+{
+	/* image container*/
+	margin:0em;
+	width:100%;
+	height:30%;
+	position: relative;
+	margin:0%;
+	overflow: hidden;
+}
+.product img
+{
+	
+	height:100%;
+	min-width:100%;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer
+{
+	
+	/* font and block adjustments */
+	background-color: #000;
+	height:7%;
+	font-size: 250%;
+	border-width:0.01em;
+	border-style: solid;
+	padding:1%;
+	position:relative;
+	text-align: center;
+	color: #FFF;
+}
